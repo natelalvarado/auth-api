@@ -17,12 +17,7 @@ Content-Type: application/json
     "password": "password"
   }  
 
-###
-POST http://localhost:3000/photos
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1ODU2NTd9.O4pGSj6sDd4G7zQwzTZTb7T4nZ0pXd9BEPXzuCorpGQ
+### 
+GET http://localhost:3000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1ODY5MDZ9.vpnNvXrHDeW_P89VHLxLeJ039lxeR6fpZEkM8IRrNR0
 Content-Type: application/json
-
-  {
-    "email": "Jerry.Garcia@test.com",
-    "password": "password"
-  }  
