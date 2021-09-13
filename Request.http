@@ -1,0 +1,28 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+
+  {
+    "name": "Jerry Seinfeld",
+    "email": "Jerry.Seinfeld@test.com",
+    "password": "password2",
+    "password_confirmation": "password2"
+  }
+
+###
+POST http://localhost:3000/sessions
+Content-Type: application/json
+  
+  {
+    "email": "Jerry.Garcia@test.com",
+    "password": "password"
+  }  
+
+###
+POST http://localhost:3000/photos
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MzE1ODU2NTd9.O4pGSj6sDd4G7zQwzTZTb7T4nZ0pXd9BEPXzuCorpGQ
+Content-Type: application/json
+
+  {
+    "email": "Jerry.Garcia@test.com",
+    "password": "password"
+  }  
